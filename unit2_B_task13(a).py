@@ -4,3 +4,14 @@ for i in range(1, 11):
     print(i)
 
 print("Loop terminated")
+
+
+i = 1
+
+while i <= 10:
+    if i == 5:
+        break
+    print(i)
+    i = i + 1
+
+print("Loop terminated")
